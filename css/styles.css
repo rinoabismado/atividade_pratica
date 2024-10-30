@@ -18,7 +18,7 @@
 
 html,
 body {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 header {
@@ -74,7 +74,7 @@ nav a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 
@@ -113,6 +113,6 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px 8px 8px 8px;
 }
 
