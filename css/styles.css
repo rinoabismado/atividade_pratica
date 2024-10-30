@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com /css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    font-family: 'Open sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --bg-body: #242a32;
+    --color-primary: #131119;
+    --text-color: #f4f3f3;
+    --text-form: #92929d;
+    --star-yellow: #FFBB3a
+
+}
+
+html,
+body {
+    background-color: #242a32;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.card-movies img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-movies-description {
+    height: 220px;
+    padding: 10px 0 20px 0;
+    background-color: var(--color-primary);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.card-movies-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.movies-form-btn{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movies-btn {
+    width: 150px;
+    height: 50px;
+    background-color: var(--bg-body);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0;
+    
+}
