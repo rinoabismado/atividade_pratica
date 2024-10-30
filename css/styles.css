@@ -8,7 +8,7 @@
 }
 
 :root {
-    --bg-body: #242a32;
+    --bg-body: #0252b9;
     --color-primary: #131119;
     --text-color: #f4f3f3;
     --text-form: #92929d;
@@ -18,7 +18,7 @@
 
 html,
 body {
-    background-color: #242a32;
+    background-color: #ffffff;
 }
 
 header {
